@@ -25,3 +25,15 @@ Für komplexe mathematische Operationen (Rechnen mit großen Zahlen) verwendet m
 # Boolscher Typ kann nur den Wert True oder False haben.
 wahrheitsvariable = True
 # Beachte True ist ein keyword und darf nicht der Name einer Variablen sein
+print(" Die wahrheitsvariable ist vom typ  ", type(wahrheitsvariable))
+zahl_eins=1
+print("Die zahl_eins variable ist vom typ  ", type(zahl_eins))
+float_var1 = 1.23
+print("die float_var1 variable ist vom typ" ,type(float_var1 ))
+# String (zeichenketten) typ ( text typ) unter '' oder  ""
+wort_eins = "text1"
+print(" Der inhalt von wort_eins ist ", wort_eins)
+print("die wort_eins variable ist vom typ " , type(wort_eins))
+# Alle Datentypen die wir bis jetzt besprochen haben, sind die sogenannten primitiven(einfachen) Datentypen
+# das bedeutet, der Wert(Inhalt) kann direkt von der variablen ausgegeben durch den Vraiablennamen werden
+# Unterscheidung zu sogenannten Referenztypen(Objekttypen). Mehr dazu im Kapitel objekttypen.
