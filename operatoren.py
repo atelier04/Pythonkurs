@@ -106,8 +106,7 @@ wetter_gut &= sommer
 # Übungsbeispiele
 # W wetter_gut |= sommer und wetter_gut ^= sommer in der Langschreibweise.
 # Dann Konkatenation von wetter_gut mit "Das Wetter ist gut" und Konkatenation von wetter_gut und sommer mit "Das Wetter ist gut un der Sommer"
-# Postfix und Prefix Operatoren
-zahl_zwoelf
+
 
 
 
