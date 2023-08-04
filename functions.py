@@ -71,5 +71,23 @@ def aussen_aussen_func(zahl1):
 
 
 print(f" aussen_aussen_func(5) {aussen_aussen_func(5)} ")
-calculate_innen = aussen_aussen_func(5)
-calculate_innen(30)
+aussen_func2 = aussen_aussen_func(5)
+calculate_innen = aussen_func2(30)
+calculate_innen(5, 30, 10)
+
+def aussen_aussen_func(zahl1):
+
+    def aussen_func2(zahl2):
+
+        def calculate_innen( zahl1, zahl2, zahl3):
+            print(f"Das ergebnis  ist (zahl1 + zahl2 ) * zahl3 {(zahl1 + zahl2 ) * zahl3}")
+            return (zahl1 + zahl2) * zahl3
+
+        return calculate_innen
+    return aussen_func2
+
+
+print(f" aussen_aussen_func(5) {aussen_aussen_func(5)} ")
+aussen_func2 = aussen_aussen_func(5)
+calculate_innen = aussen_func2(30)
+calculate_innen(2, 1, 3)
